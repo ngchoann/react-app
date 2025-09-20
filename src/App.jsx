@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div style={{ margin: "30px auto", width: "400px" }}>
-      <h1>Todo List (Redux)</h1>
+      <h1>Todo List</h1>
 
       <input
         type="text"
@@ -69,7 +69,7 @@ function App() {
         {todos.map((todo) => (
           <li key={todo.id}>
             {todo.text}{" "}
-            <button onClick={() => dispatch(removeTodo(todo.id))}>Xóa</button>
+            <button style={{ background: "black", color: "white", borderRadius: 10, outline: "none" }} onClick={() => dispatch(removeTodo(todo.id))}> Xóa </button>
           </li>
         ))}
       </ul>
