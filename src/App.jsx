@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div style={{ margin: "30px auto", width: "400px" }}>
-      <h1>Todo List</h1>
+      <h1>Todo List 2</h1>
 
       <input
         type="text"
